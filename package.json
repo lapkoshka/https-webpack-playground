@@ -1,0 +1,20 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "server": "node server.js",
+    "test": "node --experimental-modules tests/test.mjs",
+    "ssl-gen": "openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout ssl/key.pem -out ssl/cert.pem"
+  },
+  "devDependencies": {
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.6"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^6.8.0"
+  }
+}
