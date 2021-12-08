@@ -1,4 +1,4 @@
-- Add `127.0.0.1    kek.test.ru` в `/etc/hosts`.  
+- Add `127.0.0.1    kek.test.ru` to `/etc/hosts`.  
 
 - Gen cert, lauch webpack and dev-server
 ```bash
