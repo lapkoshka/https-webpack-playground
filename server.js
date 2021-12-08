@@ -38,5 +38,5 @@ const requestHandler = (req, res) => {
 }
 
 https.createServer(options, requestHandler).listen(443, null, () => {
-    console.log('https://lol.ostrovok.ru');
+    console.log('https://kek.test.ru');
 });
